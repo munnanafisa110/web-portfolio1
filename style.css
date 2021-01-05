@@ -38,6 +38,7 @@ section{
     height: 500px;
     background-repeat: no-repeat;
     bottom: padding 150px;
+    overflow: hidden;
 }
 .link-button{
    text-decoration: none; 
@@ -54,21 +55,25 @@ section{
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 70%;
+    height: 80%;
+}
+.exper{
+    clear: both;
 }
 .experience-area{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
+    
 }
 #full-stack{
-    border-left: 7px blueviolet;
+    border-left: 7px solid;
     border-image: linear-gradient(180deg, pink,blue);
     border-image-slice: 1;
     
 }
 #baby-web{
 
-    border-left: 7px rgb(226, 43, 211);
+    border-left: 7px solid;
     border-image: linear-gradient(180deg, pink,blue);
     border-image-slice: 1;
     
